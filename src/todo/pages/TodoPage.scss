@@ -1,0 +1,39 @@
+.todo-page{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+.todo-page__added{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // align-self: center;
+    gap: 5px;
+}
+
+.todo-page__input{
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    width: 90%;
+    padding-left: 10px;
+}
+
+.todo-page__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    font-size: 24px;
+    border-radius: 15px;
+}
+
+.todo-page__title{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+    margin: 0;
+}

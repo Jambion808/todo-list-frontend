@@ -1,0 +1,52 @@
+.todo-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+  
+    span {
+      width: 330px;
+      display: flex;
+      white-space: normal;
+    }
+
+    .todo-item__edit{
+      height: 30px;
+      border: none;
+      border-radius: 15px;
+      width: 320px;
+      line-height: 1.5;
+      padding-left: 5px;
+      font-size: 16px;
+      white-space: normal;
+    }
+  
+    .button-group {
+      display: flex;
+      flex-direction: row;
+  
+      button {
+        margin-left: 10px;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+  
+        &:first-child {
+          margin-left: 0;
+        }
+  
+        &:hover {
+          background-color: #f0f0f0;
+        }
+  
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+  
